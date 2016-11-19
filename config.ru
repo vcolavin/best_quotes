@@ -1,11 +1,3 @@
-# run proc {
-#   [
-#     200,
-#     {
-#       'Content-Type' => 'text/html'
-#     },
-#     ['hello woarld']
-#   ]
-# }
+require './config/application'
 
-run ->(env) { [200, {"Content-Type" => "text/html"}, ["Hello World!"]] }
+run BestQuotes::Application.new
