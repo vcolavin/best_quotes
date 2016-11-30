@@ -7,8 +7,6 @@ $LOAD_PATH << File.join(
   'controllers'
 )
 
-require 'quotes_controller'
-
 module BestQuotes
   class Application < Rulers::Application
   end
