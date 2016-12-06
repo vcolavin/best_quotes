@@ -1,5 +1,5 @@
 class QuotesController < Rulers::Controller
   def a_quote
-    'eat my shorts'
+    render :a_quote, noun: :winking
   end
 end
