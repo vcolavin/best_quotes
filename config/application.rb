@@ -1,4 +1,5 @@
 require 'rulers'
+require 'pry'
 
 $LOAD_PATH << File.join(
   File.dirname(__FILE__),
